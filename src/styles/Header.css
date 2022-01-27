@@ -1,14 +1,17 @@
 body {
   width: 100%;
   margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 header {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
   font-size: larger;
+  color: white;
+  position: sticky;
 }
 h1 {
   margin-left: 30px;
@@ -21,6 +24,7 @@ nav {
 }
 .header {
   display: flex;
+
   flex-direction: row;
   background-color: lightgray;
   align-content: center;
