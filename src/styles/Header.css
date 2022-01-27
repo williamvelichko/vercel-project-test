@@ -29,3 +29,11 @@ nav {
 
   align-content: center;
 }
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+.link :hover {
+  color: gray;
+}

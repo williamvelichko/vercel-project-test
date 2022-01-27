@@ -1,6 +1,6 @@
 .homePage {
-  background-image: url("https://images.unsplash.com/photo-1507692049790-de58290a4334?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNodXJjaCUyMGdyb3Vwc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
-
+  background-image: url("https://images.unsplash.com/photo-1531844251246-9a1bfaae09fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z3JvdXAlMjBvZiUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
   width: 100%;
   height: 50vh;
 }

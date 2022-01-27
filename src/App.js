@@ -14,17 +14,17 @@ function App() {
           <h1>BBC YOUTH</h1>
 
           <nav>
-            <Link to="/home">
+            <Link to="/home" className="link">
               <h3>Home</h3>
             </Link>
-            <Link to="/gallery">
+            <Link to="/gallery" className="link">
               <h3>Gallery</h3>
             </Link>
-            <Link to="/trips">
+            <Link to="/trips" className="link">
               <h3>Trips</h3>
             </Link>
-            <Link to="/events">
-              <h3>events</h3>
+            <Link to="/events" className="link">
+              <h3>Events</h3>
             </Link>
           </nav>
         </header>
