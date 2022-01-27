@@ -8,10 +8,10 @@ header {
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
-
+  position: fixed;
   font-size: larger;
   color: white;
-  position: sticky;
+  background-color: lightgray;
 }
 h1 {
   margin-left: 30px;
@@ -26,35 +26,6 @@ nav {
   display: flex;
 
   flex-direction: row;
-  background-color: lightgray;
+
   align-content: center;
-}
-.upcomingEvents {
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  margin: auto;
-}
-.upcomingEvents h2 {
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-  padding: 20px;
-  margin-top: 40px;
-  width: 80%;
-}
-.upcomingEvents,
-li {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  font-size: 1.8rem;
-}
-.upcomingEvents h3 {
-  margin: auto;
-  width: 80%;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-  padding: 20px;
-  margin-top: 60px;
-  margin-bottom: 40px;
 }
