@@ -1,5 +1,6 @@
 import "./App.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./styles/Header.css";
 
@@ -10,18 +11,18 @@ function App() {
         <header>
           <h1>BBC YOUTH</h1>
           <nav>
-            <a>
-              <h3>Home</h3>
-            </a>
-            <a>
-              <h3>Gallery</h3>
-            </a>
-            <a>
-              <h3>Trips</h3>
-            </a>
-            <a>
-              <h3>events</h3>
-            </a>
+            {/* <Link to="/Home"> */}
+            <h3>Home</h3>
+            {/* </Link> */}
+            {/* <Link to="/gallery"> */}
+            <h3>Gallery</h3>
+            {/* </Link> */}
+            {/* <Link to="/trips"> */}
+            <h3>Trips</h3>
+            {/* </Link> */}
+            {/* <Link to="/events"> */}
+            <h3>events</h3>
+            {/* </Link> */}
           </nav>
         </header>
       </div>
