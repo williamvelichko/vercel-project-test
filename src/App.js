@@ -3,6 +3,8 @@ import React from "react";
 import { Link, Route, Switch } from "react-router-dom";
 //import { Switch } from "react-dom";
 import HomePage from "./components/HomePage";
+import Gallery from "./components/Gallery";
+import Mondays from "./components/Mondays";
 
 import "./styles/Header.css";
 
@@ -23,13 +25,19 @@ function App() {
             <Link to="/trips" className="link">
               <h3>Trips</h3>
             </Link>
-            <Link to="/events" className="link">
-              <h3>Events</h3>
+            <Link to="/mondays" className="link">
+              <h3>Mondays</h3>
             </Link>
           </nav>
         </header>
       </div>
       <Switch>
+        <Route path="/gallery">
+          <Gallery />
+        </Route>
+        <Route path="/mondays">
+          <Mondays />
+        </Route>
         <Route path="/">
           <HomePage />
         </Route>
